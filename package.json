@@ -1,7 +1,9 @@
 {
-  "name": "NewProject",
-  "uuid": "7e826971-ee33-47a8-aa82-2a764a79e7a1",
-  "creator": {
-    "version": "3.8.8"
+  "name": "im-the-meme-king",
+  "version": "0.1.0",
+  "private": true,
+  "description": "原生微信小游戏，预留抖音小游戏平台适配",
+  "scripts": {
+    "check": "node --check game.js && node --check src/game/app.js && node --check src/platform/index.js"
   }
 }
